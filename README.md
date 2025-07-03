@@ -63,6 +63,7 @@ The repository includes language-specific instruction sets to ensure code genera
 │   ├── csharp.instructions.md
 │   └── python.instructions.md
 ├── prompts/            # Template prompts for specific tasks
+│   └── aspnet-minimal-api-openapi.prompt.md # ASP.NET Minimal API with OpenAPI docs guidance
 ├── change-history.md   # Chronological log of all Copilot interactions
 └── copilot-instructions.md  # Instructions for GitHub Copilot behavior
 .vscode/
