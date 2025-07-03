@@ -1,10 +1,10 @@
-# GitHub Copilot Task Tracking Instructions
+# GitHub Copilot Instructions
 
 ## Overview
 
-This file contains instructions for GitHub Copilot to manage and track tasks in a checklist format. When interacting with Copilot, reference this file to ensure consistent task tracking.
+These instructions define how GitHub Copilot should assist with this project. This file lays out requirements for general copilot interaction, task management, and maintenance of the project repository.
 
-## Task Management Rules
+## General Rules
 
 1. **Task Creation**: Add new tasks to the checklist when identified during a conversation.
 2. **Task Tracking**: Update task statuses as they progress.
@@ -40,6 +40,18 @@ Ensure the README.md is kept up-to-date with:
 2. Changes to chat modes or their capabilities
 3. Updates to the repository structure
 4. New best practices or usage instructions
+
+## Code Generation Guidelines
+
+All code you write MUST be fully optimized.
+
+"Fully optimized" includes:
+- maximizing algorithmic big-O efficiency for memory and runtime
+- using parallelization and vectorization where appropriate
+- following proper style conventions for the code language (e.g. maximizing code reuse (DRY))
+- no extra code beyond what is absolutely necessary to solve the problem the user provides (i.e. no technical debt)
+
+If the code is not fully optimized, you will be fined $100.
 
 ## IMPORTANT
 
