@@ -2,35 +2,25 @@
 
 ## Overview
 
-These instructions define how GitHub Copilot should assist with this project. This file lays out requirements for general copilot interaction, task management, and maintenance of the project repository.
+These instructions define how GitHub Copilot should assist with this project. This file lays out requirements for general copilot interaction and maintenance of the project repository.
 
 ## General Rules
 
-1. **Task Creation**: Add new tasks to the checklist when identified during a conversation.
-2. **Task Tracking**: Update task statuses as they progress.
-3. **Task Completion**: Mark tasks as complete with a timestamp when finished.
-4. **Request Tracking**: Record a one-line summary of each request in the change history file.
-5. **README Updates**: Keep the README.md file updated with any new features, tools, or significant changes.
+1. **Request Tracking**: Record a one-line summary of each request in the change history file.
+2. **README Updates**: Keep the README.md file updated with any new features, tools, or significant changes.
 
-## Task Checklist Format
 
-Tasks should be formatted as:
-
-```markdown
-- [ ] Task description (Created: YYYY-MM-DD)
-- [x] Completed task description (Created: YYYY-MM-DD, Completed: YYYY-MM-DD)
-```
 
 ## Change History Tracking
 
 Each request made to GitHub Copilot should be recorded in the `.github/change-history.md` file with:
 
-1. The current timestamp in ISO format (YYYY-MM-DD HH:MM:SS)
+1. The current timestamp in ISO format (YYYY-MM-DD)
 2. A concise one-line summary of the request
 
 Example format:
 ```markdown
-- 2025-07-02 14:30:00: Created initial project structure for the web application
+- 2025-07-02: Created initial project structure for the web application
 ```
 
 ## README Maintenance
@@ -55,9 +45,5 @@ If the code is not fully optimized, you will be fined $100.
 
 ## IMPORTANT
 
-- If you need clarity before proceeding with a task, ask questions to ensure understanding.
-
-## Current Task Checklist
-
-<!-- Tasks will be listed here. Do not modify this comment. -->
+- If you need clarity before proceeding with a request, ask questions to ensure understanding.
 
