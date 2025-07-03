@@ -43,7 +43,7 @@ Ensure the README.md is kept up-to-date with:
 
 ## IMPORTANT
 
-Ensure that all dates and timestamps are the current date and time in UTC format, with a timezone offset of `Z` (e.g., `2025-07-02T14:30:00Z`).
+- If you need clarity before proceeding with a task, ask questions to ensure understanding.
 
 ## Current Task Checklist
 
