@@ -34,6 +34,7 @@ All interactions with GitHub Copilot are automatically logged in a change histor
 The repository includes language-specific instruction sets to ensure code generation follows best practices:
 - Python coding conventions following PEP 8 and PEP 257 guidelines
 - Angular development standards using signals for state management and following Angular.dev best practices
+- C# development using Clean Architecture, SOLID principles, and .NET 6+ best practices
 
 ### Tool Integrations
 
@@ -59,6 +60,7 @@ The repository includes language-specific instruction sets to ensure code genera
 ├── instructions/       # Language-specific coding instructions
 │   ├── angular.instructions.md
 │   ├── copilot-thought-logging.instructions.md
+│   ├── csharp.instructions.md
 │   └── python.instructions.md
 ├── prompts/            # Template prompts for specific tasks
 ├── change-history.md   # Chronological log of all Copilot interactions
