@@ -16,3 +16,4 @@ This file records a chronological history of requests made to GitHub Copilot and
 - 2025-07-03: Updated README.md with Debugger chat mode, Python instructions, and tool integrations
 - 2025-07-03: Added copilot-thought-logging.instructions.md from GitHub's awesome-copilot repository
 - 2025-07-03: Removed task tracking functionality from copilot-instructions.md
+- 2025-07-03: Added angular.instructions.md from GitHub's awesome-copilot repository
