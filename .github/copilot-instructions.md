@@ -10,6 +10,7 @@ This file contains instructions for GitHub Copilot to manage and track tasks in 
 2. **Task Tracking**: Update task statuses as they progress.
 3. **Task Completion**: Mark tasks as complete with a timestamp when finished.
 4. **Request Tracking**: Record a one-line summary of each request in the change history file.
+5. **README Updates**: Keep the README.md file updated with any new features, tools, or significant changes.
 
 ## Task Checklist Format
 
@@ -32,6 +33,14 @@ Example format:
 - 2025-07-02 14:30:00: Created initial project structure for the web application
 ```
 
+## README Maintenance
+
+Ensure the README.md is kept up-to-date with:
+1. Any new features or tools added to the repository
+2. Changes to chat modes or their capabilities
+3. Updates to the repository structure
+4. New best practices or usage instructions
+
 ## IMPORTANT
 
 Ensure that all dates and timestamps are the current date and time in UTC format, with a timezone offset of `Z` (e.g., `2025-07-02T14:30:00Z`).
@@ -39,3 +48,4 @@ Ensure that all dates and timestamps are the current date and time in UTC format
 ## Current Task Checklist
 
 <!-- Tasks will be listed here. Do not modify this comment. -->
+
